@@ -31,7 +31,7 @@ class CatDogDataset(Dataset):
         # Create label for image based on file name (dog = 0, cat = 1)
         label = 0 if "dog" in str(img_path) else 1
         sample = (image, label)
-        print(f"Loaded image: index='{idx}', name='{img_path}', type='{label}'")
+        # print(f"Loaded image: index='{idx}', name='{img_path}', type='{label}'")
         return sample
 
 
