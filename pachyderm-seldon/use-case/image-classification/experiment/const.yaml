@@ -1,4 +1,6 @@
 name: dogcat_single
+workspace: Tyler
+project: pachyderm
 data:
     pachyderm:
       host:
